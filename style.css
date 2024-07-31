@@ -1,17 +1,81 @@
-* {
-  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa,
-    Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri,
-    source-sans-pro, sans-serif;
-  font-weight: bold;
+body{
+  color: rgb(56, 0, 0);
+  background-image: url(Hintergrund.jpg);
+  background-position: 100%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 90%;
 }
-body {
-  margin: 0 auto;
-  width: 50vw;
-  height: 100vh;
+
+.Verlinkungen{
+  box-shadow: 5px 5px 5px rgba(58, 0, 0, 0.756);
+  border-radius: 18px;
+  margin: 7%;
+  padding: 3%;
+  background-color: rgba(255, 255, 255, 0.423);
+  
+}
+
+.Projekte{
+display: flex;
+flex-direction: column;
+}
+
+.Menülink{
+  background-color: rgba(56, 0, 0, 0.334);
+  text-decoration: none;
+  color: rgba(56, 0, 0);
+  padding: 1%;
+  border-left: 2px solid rgb(56, 0, 0);
+}
+
+.Menülink:hover{
+  background-color: rgba(96, 0, 0, 0.758);
+  color: rgb(255, 255, 255);
+  }
+
+.Websiten{
+  box-shadow: 2px 2px 2px rgba(58, 0, 0, 0.756);
+padding: 1%;
+border-radius: 6px;
+text-decoration: none;
+color: white;
+background-color: rgb(56, 0, 0);
+}
+
+.Websiten:hover{
+  background-color: rgb(255, 0, 0);
+  color: white;
+}
+
+.btn {
+  background-color: rgb(56, 0, 0); 
+  border-radius: 6px;
+  color: white; 
+  padding: 1%;
+  font-size: 16px; 
+  cursor: pointer; 
+  box-shadow: 2px 2px 2px rgba(58, 0, 0, 0.756);
+}
+
+.btn:hover {
+  background-color: rgb(255, 0, 0);
+}
+
+.fuß{
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
 }
-h1 {
-  font-size: 5vw;
+
+.row{
+  width: 10%;
+  height: auto;
+  display: flex;
+  color: rgba(255, 255, 255, 0);
+}
+
+img{
+  width: 30%;
+  height: auto;
+  display: inline-block;
 }
