@@ -8,3 +8,5 @@ BrightRoom - Google Teachable Machine
 Fairytale-Generator - Large Language Model
 
 Pforten des Universums - A generative story
+
+Fazit
