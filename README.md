@@ -3,6 +3,8 @@
 
 Inhalt:
 
+Einleitung
+
 BrightRoom - Google Teachable Machine
 
 Fairytale-Generator - Large Language Model
