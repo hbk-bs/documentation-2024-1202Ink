@@ -6,6 +6,11 @@ body{
   font-size: 90%;
 }
 
+hr{
+  border-color: rgb(58, 0, 0);
+  margin-bottom: 5%;
+}
+
 .h2{
   font: size 1em;
 }
